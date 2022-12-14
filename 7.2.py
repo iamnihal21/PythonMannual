@@ -1,0 +1,16 @@
+d1 = {"d1","d2","d3"}
+print(d1)
+d2 = {"d4","d5","d6"}
+print(d2)
+d2.add("d7")
+print(d2)
+d2.remove("d7")
+print(d2)
+d3=d1.union(d2)
+print(d3)
+d3=d1.intersection(d2)
+print(d3)
+d3=d1.symmetric_difference(d2)
+print(d3)
+d3=d1.difference(d2)
+print(d3)

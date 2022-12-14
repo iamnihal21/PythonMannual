@@ -1,0 +1,8 @@
+name = input("Enter your name : ")
+print("Your name is : ",name)
+number = int(input("Enter your number : "))
+print("Your number is : ",number)
+email = input("Enter your email : ")
+print("Your email is : ",email)
+date = int(input("Enter your date : "))
+print("Your date is : ",date)

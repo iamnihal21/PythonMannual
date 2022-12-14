@@ -1,0 +1,10 @@
+a = ['1','2','3']
+print("Original list : ",a)
+a.append('4')
+print("After adding 4 list : ",a)
+a.reverse()
+print("After Reverse list : ",a)
+a.remove('4')
+a.sort()
+print("After sorting list : ",a)
+print("Length is : ",len(a))
